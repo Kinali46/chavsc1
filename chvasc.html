@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Evet Hayır Sitesi</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('https://sdmntprukwest.oaiusercontent.com/files/00000000-7df8-6243-99a2-e77033407fcd/raw?se=2025-06-11T22%3A01%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=016dc261-4d35-5833-9bb3-19585e7df619&skoid=b32d65cd-c8f1-46fb-90df-c208671889d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-11T04%3A45%3A41Z&ske=2025-06-12T04%3A45%3A41Z&sks=b&skv=2024-08-04&sig=xcb8oD8R333iUw/bzq8rSY60Z1y/H0RTRDeEwIhSc6w%3D'); /* Görsel URL'si buraya */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      text-align: center;
+      backdrop-filter: blur(6px);
+    }
+
+    h1 {
+      color: rgb(255, 255, 255);
+       text-shadow: 5px 4px 4px #000000;
+    }
+       h2 {    
+      color: rgb(255, 255, 255);
+      text-shadow: 20px 20px 20px #000000;
+    }
+   h3 {
+      color: white;
+      text-shadow: 20px 20px 20px #000000;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    .yes {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .no {
+      background-color: #F44336;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Chvasc sen herzaman iyi dostun </h2>
+    <h2> Seni her zaman seveceğim lan 😄 </h2>
+    <h1>Chavsc bir seçim yap Dostum!</h1>
+    <div class="buttons">
+      <button class="yes" onclick="playVideo()">Evet</button>
+      <button class="no" onclick="alert('Chvasc Piçlik yapma evete bas 😄')">Hayır</button>
+    </div>
+  </div>
+
+  <script>
+    function playVideo() {
+      window.open("https://www.youtube.com/watch?v=mwjs25xrEI0", "_blank");
+    }
+  </script>
+
+</body>
+</html>
